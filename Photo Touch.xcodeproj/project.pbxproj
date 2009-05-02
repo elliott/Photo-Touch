@@ -10,7 +10,6 @@
 		4F4A70810D99F070006BC2B6 /* PhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4A70800D99F070006BC2B6 /* PhotoView.m */; };
 		4F4A70840D99F0A8006BC2B6 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4A70830D99F0A8006BC2B6 /* AppController.m */; };
 		4F4A708D0D99F1CB006BC2B6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4A708C0D99F1CB006BC2B6 /* QuartzCore.framework */; };
-		4F80F76F0FAC3D4E00615302 /* del.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F80F76E0FAC3D4E00615302 /* del.png */; };
 		4FDADE760D9D955000C123DB /* photo-touch.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4FDADE750D9D955000C123DB /* photo-touch.icns */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -32,7 +31,6 @@
 		4F4A70820D99F0A8006BC2B6 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		4F4A70830D99F0A8006BC2B6 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		4F4A708C0D99F1CB006BC2B6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
-		4F80F76E0FAC3D4E00615302 /* del.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = del.png; sourceTree = "<group>"; };
 		4FDADE750D9D955000C123DB /* photo-touch.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "photo-touch.icns"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Photo Touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Touch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,7 +100,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4F80F76E0FAC3D4E00615302 /* del.png */,
 				4FDADE750D9D955000C123DB /* photo-touch.icns */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -177,7 +174,6 @@
 				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				4FDADE760D9D955000C123DB /* photo-touch.icns in Resources */,
-				4F80F76F0FAC3D4E00615302 /* del.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
