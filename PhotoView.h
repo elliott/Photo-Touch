@@ -25,5 +25,6 @@
 
 -(void)loadPhotoFromPath:(NSString *)aPath;
 -(IBAction)toggleFullScreen:(id)sender;
+-(void)arrangeSublayers;
 
 @end
