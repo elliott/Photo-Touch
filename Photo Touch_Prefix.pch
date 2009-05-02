@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Photo Touch' target in the 'Photo Touch' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
