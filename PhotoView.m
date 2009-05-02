@@ -32,6 +32,7 @@ CGImageRef CreateCGImageFromFile(NSString* path)
 
 @interface PhotoView (PRIVATE)
 -(int)layersPerRowForTotal:(int)totalLayers;
+-(void)arrangeSublayers;
 -(CAAnimation *)flipAnimationWithDuration:(float)duration;
 -(CAAnimation *)explosionAnimation;
 -(CAAnimation *)explodingAnimationForPoint:(CGPoint)aPoint;
