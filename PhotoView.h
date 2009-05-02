@@ -26,4 +26,8 @@
 -(void)loadPhotoFromPath:(NSString *)aPath;
 -(IBAction)toggleFullScreen:(id)sender;
 
+-(CAAnimation *)flipAnimationWithDuration:(float)duration;
+-(CAAnimation *)explosionAnimation;
+-(CAAnimation *)explodingAnimationForPoint:(CGPoint)aPoint;
+
 @end
