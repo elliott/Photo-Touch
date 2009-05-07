@@ -41,7 +41,7 @@ CGImageRef CreateCGImageFromFile(NSString* path)
 -(void)awakeFromNib
 {
 	isGrid = NO;
-	topZPosition = 0.02; //Hi Nick!
+	topZPosition = 0.01;
 }
 
 - (BOOL)acceptsFirstResponder {
